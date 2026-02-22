@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+* {
+  --sitePrimaryColor: rgb(4, 4, 32);
+  --siteSecondaryColor: rgb(0, 0, 185);
+  font-family: Verdana, sans-serif;
+}
+
+.navigation {
+  background-color: var(--sitePrimaryColor);
+}
+
+.heroSection {
+  position: relative;
+  height: 90vh;
+}
+
+
+
+.heroImage {
+  background-color: var(--sitePrimaryColor);
+  background-image: url('./images/worldHero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 90vh;
+  /* position: absolute; */
+
+}
+
+
+.roundImage{
+  
+  background-image: url('./images/classImage.jpg') ;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videoSection{
+  /* background-color: var(--siteSecondaryColor); */
+}
