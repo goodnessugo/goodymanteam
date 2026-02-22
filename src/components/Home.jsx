@@ -23,19 +23,22 @@ const Home = () => {
                     <div className=' roundImage h-[20rem] w-[20rem] md:h-[30rem] md:w-[30rem] border-4 border-white rounded-full scale-x-[-1]'>
 
                     </div>
-                    {/* <img src={ClassImage} alt="" className='transform scaleX(-1)' /> */}
-                </div>
+                  </div>
 
             </div>
 
-            {/* video section */}
-            <div className="videoSection h-fit  flex flex-col md:flex-row justify-center items-center p-5 md:p-10 gap-10">
-                <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+            {/*-----------video section--------------- */}
+            <div className="videoSection ">
+               
+                {/*--------------video set ---------------  */}
+               
+                <div className="videoCommunity h-fit  flex flex-col md:flex-row justify-center items-center p-5 md:p-10 gap-10">
+                    <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
                   
 
                     <iframe
                         className='h-[100%] w-[100%]'
-                        src="https://www.youtube.com/embed/tS0hwTnhzY4?si=ngJ8_h0H3Ylzd_cR" 
+                        src="https://www.youtube.com/embed/Yy2Rb-7NVow?si=yIFhesOacqwr8bUm"  
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -53,7 +56,28 @@ const Home = () => {
 
                     <iframe
                         className='h-[100%] w-[100%]'
-                        src="https://www.youtube.com/embed/P9PbpYRLFhQ?si=xppzHZRPIqh_miB3" 
+                        src="https://www.youtube.com/embed/tS0hwTnhzY4?si=5QFx53jYqFGdelak" 
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+ 
+                </div>
+               
+                {/*--------------another set ---------------  */}
+                <div className="videoCommunity h-fit  flex flex-col md:flex-row justify-center items-center p-5 md:p-10 gap-10">
+                    <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/P9PbpYRLFhQ?si=mM5rcTMwvYmbQcEL"  
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -65,6 +89,106 @@ const Home = () => {
 
                 </div>
 
+                
+                <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/uUDF0V540yU?si=KV4oAlFHHvM8GHMB"  
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+ 
+                </div>
+               
+                
+                {/*--------------another set ---------------  */}
+                <div className="videoCommunity h-fit  flex flex-col md:flex-row justify-center items-center p-5 md:p-10 gap-10">
+                    <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/0iIlVI8utSM?si=YszKXLMJ30G0a_f9" 
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+
+                
+                <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/t2KME5jowVo?si=i3VClC0KuRrGtA-6"  
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+ 
+                </div>
+               
+                
+                {/*--------------another set ---------------  */}
+                <div className="videoCommunity h-fit  flex flex-col md:flex-row justify-center items-center p-5 md:p-10 gap-10">
+                    <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/mXOMxM7AOEU?si=covGpGovjvksSEK5"   
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+
+                
+                <div className="videoBox bg-white h-70 w-[100%] md:h-90 md:w-[40%]">
+                  
+
+                    <iframe
+                        className='h-[100%] w-[100%]'
+                        src="https://www.youtube.com/embed/IBe5FlOdXtU?si=_kKffy6BwLfDFnl6"  
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading='lazy'>
+
+                    </iframe>
+
+                </div>
+ 
+                </div>
+               
                 
 
             </div>
