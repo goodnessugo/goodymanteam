@@ -38,11 +38,11 @@ const Home = () => {
                     <div onClick={toggleVisibility} className='bg-green-500  w-[100%] p-5 '>
                         <h1 ><IoMdCloseCircle className='text-[2rem]' /></h1>
                     </div>
-                    <ul className='text-white  flex items-center flex-col w-[100%] '>
-                        <li className=' w-[100%] p-5 hover:bg-gray-800 cursor-pointer '>About Us</li>
-                        <li className=' w-[100%] p-5 hover:bg-gray-800 cursor-pointer'>Contact </li>
-                        <li className=' w-[100%] p-5 hover:bg-gray-800 cursor-pointer'>More Courses</li>
-                    </ul>
+                    <div className='text-white  flex  flex-col  w-[100%] '>
+                        <button className='text-left w-[100%] p-5 hover:bg-gray-800 cursor-pointer focus:bg-gray-800'>About Us</button>
+                        <button className='text-left w-[100%] p-5 hover:bg-gray-800 cursor-pointer focus:bg-gray-800'>Contact </button>
+                        <button className='text-left w-[100%] p-5 hover:bg-gray-800 cursor-pointer focus:bg-gray-800'>More Courses</button>
+                    </div>
 
                 </div>
             )}
